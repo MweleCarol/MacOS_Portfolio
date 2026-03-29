@@ -1,5 +1,6 @@
-import Navbar from '#Components/Navbar';
+import Dock from '#Components/Dock';
 import Welcome from '#Components/Welcome';
+import Navbar from '#Components/Navbar';
 import React from 'react';
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Welcome/>
+      <Dock/>
     </div>
   );
 }
