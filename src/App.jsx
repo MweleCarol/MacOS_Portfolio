@@ -5,6 +5,7 @@ import React from 'react';
 import { Draggable } from 'gsap/Draggable';
 import gsap from 'gsap';
 import Terminal from '#windows/Terminal';
+import Safari from '#windows/Safari';
 
 gsap.registerPlugin(Draggable);
 
@@ -15,6 +16,7 @@ const App = () => {
       <Welcome/>
       <Dock/>
       <Terminal/>
+      <Safari/>
     </div>
   );
 }
